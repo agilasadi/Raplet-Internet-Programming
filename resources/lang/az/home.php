@@ -1,0 +1,22 @@
+<?php
+return [
+    'signin' => 'Oturum aç',
+    'signup' => 'Qeyid ol',
+    'submit' => 'Gönder',
+    'home' => 'Ana sayfa',
+    'name' => 'Ad',
+    'email' => 'E-mail',
+    'password' => 'Şifre',
+    'confirm-password' => 'Şifre tekrarı',
+    'remember' => 'Beni hatırla',
+    'report' => 'Şikayet et',
+    'comments' => 'Yorumlar',
+    'recent' => 'Güncel',
+    'trend' => 'Trendler',
+    'top' => 'Top',
+    'terms' => 'Kayıt yaparak Gizlilik & Kullanım kurallarını kabul etmiş bulunuyorsunuz',
+    'header' => 'Başlık',
+    'language' => 'Dil',
+    'user' => 'Kullanıcı',
+    'save' => 'Kaydet',
+];

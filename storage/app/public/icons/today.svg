@@ -1,0 +1,20 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#34495e" fill="none" id="svg_1" y2="2" y1="2" x2="32" x1="10" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#34495e" fill="none" id="svg_2" y2="6" y1="6" x2="20" x1="10" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#41b883" fill="none" id="svg_3" y2="14" y1="14" x2="32" x1="10" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#41b883" fill="none" id="svg_4" y2="18" y1="18" x2="20" x1="10" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#34495e" fill="none" id="svg_5" y2="26" y1="26" x2="32" x1="10" class="cls-1"/>
+  <line stroke-width="2px" stroke-linejoin="round" stroke="#34495e" fill="none" id="svg_6" y2="30" y1="30" x2="20" x1="10" class="cls-1"/>
+  <circle stroke-width="2px" stroke-linejoin="round" stroke="#41b883" fill="none" id="svg_7" r="3" cy="4" cx="4" class="cls-1"/>
+  <circle stroke-width="2px" stroke-linejoin="round" stroke="#34495e" fill="none" id="svg_8" r="3" cy="16" cx="4" class="cls-1"/>
+  <circle stroke-width="2px" stroke-linejoin="round" stroke="#41b883" fill="none" id="svg_9" r="3" cy="28" cx="4" class="cls-1"/>
+ </g>
+</svg>

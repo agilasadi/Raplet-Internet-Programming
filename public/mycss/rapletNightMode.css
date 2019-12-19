@@ -1,0 +1,125 @@
+
+
+:root {
+    --bg-color-light: #2d6049;
+    --bg-color-regular: #34495e;
+    --bg-color-dark: #1f2b38;
+
+    --text-color-light: #e5e5e5;
+    --text-color-regular: #52ae84;
+    --text-color-dark: #1f2b38;
+}
+
+/*
+.primeryNav .navbar {
+    background: var(--bg-color-dark);
+    -moz-box-shadow: 0 1px 10px 0 #0000001c;
+    -webkit-box-shadow: 0 1px 10px 0 #0000001c;
+    box-shadow: 0 1px 10px 0 #0000001c;
+}
+
+.navbar .container a.navbar-brand {
+     color: var(--text-color-light);
+ }
+body {
+    background: var(--bg-color-dark);
+}
+.bg-white {
+    background-color: var(--bg-color-regular)!important;
+}
+.innerSideHeaders,.sideSpaceHeader {
+    background: var(--bg-color-regular);
+    color: var(--text-color-light);
+}
+
+.text-muted {
+    color:var(--text-color-regular)!important;
+}
+.sideCardHeaders a {
+    color: var(--text-color-light);
+}
+.searchingInputField {
+     background:var(--bg-color-dark);
+     border: 1px solid var(--bg-color-regular);
+ }
+.searchingInputField:hover, .searchingInputField:focus {
+    border-color: var(--bg-color-dark);
+    background: var(--bg-color-regular);
+    box-shadow: none;
+}
+
+*/
+
+*,.primeryNav .navbar {
+    background-color: #1b242d!important;
+    background: #1b242d!important;
+    color: #dedede!important;
+}
+.headersContainer, .headersContainer *, .sideHEadersBox, .sideHEadersBox *, .secondaryNav, .secondaryNav * {
+    background: #1d2a36 !important;
+}
+
+.interractWithPost {
+    box-shadow: -6px 0 11px 0 #1d2a36 !important;
+}
+
+.cookieFixer, .cookieFixer * {
+    background: #1d2a36 !important
+}
+
+.border-gray {
+    border-color: #1b242d !important;
+}
+
+.articleBox {
+    border: 1px solid #1b242d !important;
+}
+
+.searchBox, .searchBox *, input, .btn, button{
+    background: #1b2732 !important;
+    background-color: #1b2732 !important;
+}
+
+.innerSideHeaders::-webkit-scrollbar-thumb {
+    background: #35495e;
+}
+
+.innerSideHeaders::-webkit-scrollbar-track {
+    background: #273847;
+}
+
+.roundimg {
+    border: 1px solid #35495e !important;
+}
+
+.searchDropdownHeader, .searchDropdownHeader *, .searchEntireAutocompleteResult, .searchEntireAutocompleteResult * {
+    background: #1d2a36 !important
+}
+
+.eachsearchrow {
+    border-left: 3px solid #1b242d !important;
+    border-top: 1px solid #1b242d !important;
+}
+
+.searchBoxTittle {
+    background: #faebd700 !important;
+}
+
+.profileBox, .profileBox *, .editableprofile {
+    background: #1d2a36 !important;
+}
+
+.card-header, .input-group-prepend, .input-group-text {
+    background: #273745 !important
+}
+
+.form-control {
+    background-color: #1b242d !important;
+    border-color: #273745 !important;
+    color: #dedede !important
+}
+
+#collapsePassInfo > .card {
+    background: #1d2a36 !important;
+}
+

@@ -1,0 +1,82 @@
+
+.note-editor.note-frame{
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    border: 1px solid #f4f4f4;
+}
+
+.card-header{
+    border-bottom: none;
+    background: white;
+}
+
+.note-editor.note-frame .note-statusbar{
+    background: white;
+}
+
+.note-btn-group .btn-light{
+    background: white;
+    border-color: white;
+}
+
+.adminNavbarDiv{
+    -webkit-transition: all 500ms ease;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.adminNavbarDiv::-webkit-scrollbar {
+    height: 6px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;               /* width of vertical scrollbar */
+    border: 1px solid #d5d5d5;
+}
+
+.adminNavbarDiv::-webkit-scrollbar-thumb {
+    background: #89dcb7;
+}
+.adminNavbarDiv::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+.adminNavbarDiv a.active{
+    color: #1c374e;
+}
+
+.admingPanelContentCreatField{
+    background: #f2fff9;
+    padding: 24px 39px;
+}
+
+.informativeBox{
+    /*
+    background: #ffc107;
+    color: #0b2e13;
+    */
+
+    border: 3px solid #eaf9ff;
+    background-color: #eaf9ff;
+    color: #34495e;
+    font-weight: 500;
+}
+
+.informativeBox  ul{
+    list-style: none;
+}
+
+#editKeepersPill .modal{
+    display: block;
+    position: inherit;
+    z-index: 50;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.troublingModel{
+    -webkit-box-shadow: 0 0.25rem 0.75rem rgba(255, 0, 0, 0.24);
+    box-shadow: 0 0.25rem 0.75rem rgba(255, 0, 0, 0.24);
+    border-color: #ffe3e3;
+    background: #faf8f8;
+}

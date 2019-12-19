@@ -1,0 +1,203 @@
+.searcheAutocompleteDiv{
+    margin-right: .5rem!important;
+    background: white;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+    min-width: 300px;
+    width: 100%;
+    left: 0;
+    padding-top: 38px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0,0,0,.05);
+    display: none;
+    z-index: 1;
+}
+.searchEntireAutocompleteResult {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+#btnAutocompleteClose{
+    display: none;
+}
+
+.searchBox{
+    position: relative;
+    text-align: left;
+    width: 525px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.eachsearchrow{
+    padding: 15px 15px 15px 15px;
+    border-left: 3px solid white;
+    border-top: 1px solid #f8f9fa;
+}
+
+.eachsearchrow a{
+    color: #34495e;
+}
+
+.searchBoxTittle{
+    color: silver;
+    padding: 15px;
+}
+
+.eachsearchrow:hover{
+    background: #f8fdff;
+    border-left: 3px solid #d9dadc;
+}
+
+.eachsearchrow a:hover{
+    color: #34495e;
+}
+
+.searchingword{
+    color: #34495e;
+    word-wrap: break-word;
+}
+
+/*.searchspinner{*/
+    /*animation: spin-animation .5s infinite;*/
+    /*float: right;*/
+    /*padding: 5px;*/
+    /*color: #a4a4ff;*/
+    /*margin-top: -2px;*/
+    /*font-size: 17px;*/
+    /*display: none;*/
+    /*line-height: 0;*/
+/*}*/
+
+.searchDropdownHeader{
+    padding: 9px 0;
+}
+
+
+.searchSubmitButton{
+    position: absolute;
+    right: 6px;
+    padding: 2px 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: transparent;
+    color: #2a567d;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.searchSubmitButton:hover,
+.searchSubmitButton:focus
+{
+    color: #41b883 !important;
+}
+
+.searchingInputField:focus.searchSubmitButton{
+    display: block;
+}
+
+.searchConnectionIcon{
+    display: none;
+}
+
+.searchConnectionIcon img{
+    height: 18px;
+    margin-top: -6px;
+    margin-right: 12px;
+}
+
+.searchButtons{
+    background: transparent;
+    border: none;
+    padding: 3px 12px 0 0;
+    color: silver;
+    font-size: 12px;
+}
+
+.searchUserImages{
+    float: left;
+    padding: 8px 15px 0 0;
+}
+
+.searchUserImages img{
+    width: 38px;
+    border-radius: 50%;
+}
+.searchPostImages{
+    float: left;
+    padding: 3px 9px 26px 0;
+    max-height: 54px;
+    overflow: hidden;
+}
+
+.postTitle{
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.commentSearchTitle{
+    max-height: 26px;
+}
+
+.searchPostImages img{
+    width: 38px;
+    border-radius: 3px;
+}
+
+.searchingInputField {
+    /*
+        width: 500px!important;
+        background: #f8f9fa;
+        border: 1px solid #f0f1f2;
+        padding-right: 33px;
+        border-radius: 3px;
+        border: 1px solid #e0e0e0;
+        background: #f8f9fa;
+     */
+    z-index: 2;
+    width: 100%!important;
+    min-width: 300px;
+    border: 1px solid #e4e9ed;
+    padding-right: 52px;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08); */
+}
+.searchingInputField:hover,
+.searchingInputField:focus
+{
+    border-color: #e0e0e0;
+    background: #f8f9fa;
+    box-shadow: none;
+   /* box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08); */
+}
+.connectedfromTop:hover,
+.connectedfromTop:focus
+{
+    border-color: #f8f9fa;
+    border-radius: 3px 3px 0 0 !important;
+}
+
+.connectedfromTop{
+    border-radius: 3px 3px 0 0 !important;
+    border: 1px solid #f8f9fa;
+}
+
+.searchResultTitles{
+    padding: 0 15px 0 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1d4990;
+    border-right: 2px solid #1d4990;
+    border-top: 1px solid #f8f9fa;
+    background: #fbfdff;
+    text-align: right;
+}
+
+
+.right26px{
+    right: 26px;
+}
+

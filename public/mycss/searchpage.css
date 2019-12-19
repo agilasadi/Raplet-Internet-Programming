@@ -1,0 +1,20 @@
+.selectingSearchTab .active {
+    color: #41b883;
+    border-bottom: 2px solid #41b883;
+}
+
+.selectingSearchTab a{
+    color: #34495e;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navPills{
+    border-bottom: 1px solid silver;
+}
+
+.searchedPostImages{
+    max-height: 49px;
+    float: left;
+    overflow: hidden;
+}

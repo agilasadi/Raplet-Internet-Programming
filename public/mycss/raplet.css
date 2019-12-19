@@ -1,0 +1,60 @@
+.rapletCustomModel{
+    z-index: 1300;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+    overflow: auto;
+}
+
+.warningModel{
+    width: 500px;
+    max-width: 95%;
+}
+
+.fullscreenModel{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hideInBeginning{
+    position: fixed;
+    top:-50%;
+    left: 50%;
+    transform: translate( -50%, 0);
+    opacity: 0;
+    display: none;
+}
+
+
+.model-toggle-in-out{
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block!important;
+    opacity: 1;
+}
+
+
+.border-6{
+    border-radius: 6px;
+}
+
+.shadowed-light{
+    -moz-box-shadow: 0 0 20rem 20px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0 0 20rem 20px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 0 20rem 20px rgba(0, 0, 0, 0.28);
+}
+
+.centered-fixed {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visibility{
+    display: block!important;
+}
+
+.fixed-centered-visible{
+
+}

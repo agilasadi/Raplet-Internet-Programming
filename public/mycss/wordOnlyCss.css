@@ -1,0 +1,356 @@
+
+.explanatoryWordNav {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+
+    display: block;
+    transition: top 0.3s;
+    z-index: 1029;
+}
+.navbarish{
+    width: 100%;
+    background-color: #ffffff;
+     -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+     box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    position: fixed;
+    top: -56px;
+    z-index: 1028;
+    height: 50px;
+    transition: top 0.3s;
+    border-bottom: 1px solid #f1f2f3;
+    border-top: 1px solid #e0e0e0;
+    /* border-bottom: 4px solid #e8e8fa;
+    border-top: 1px solid #f2f2f2; */
+}
+.stick {
+    top:50px ;
+}
+
+.addtheextra.transitionSlow.disabled{
+    color: silver;
+}
+
+@media (min-width: 576px){
+    .explanatoryWordNav {
+        max-width: 540px;
+    }
+    .stick {
+        top:51px;
+    }
+}
+
+@media (min-width: 768px){
+    .explanatoryWordNav {
+        max-width: 720px;
+    }
+    .stick {
+        top:50px ;
+    }
+}
+
+
+@media (min-width: 992px){
+    .explanatoryWordNav {
+        max-width: 960px;
+    }
+    .stick {
+        top:56px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .explanatoryWordNav {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+
+
+.rightSideOfWordNav{
+    padding: 14px 13px 10px 43px;
+    height: 50px;
+}
+
+.explanetporyTagline a{
+    font-weight: 600;
+    color: #85929d !important;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 0 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.explanetporyTagline a:hover{
+    color: #a1a1ff !important;
+}
+
+.explanetporyTagline{
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+
+.explanetporyTagline a:hover{
+    color: #35495e;
+}
+
+.primerySpecialArrowUp{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.explanetporyTagline:hover .specialArrowUp {
+    color: #a1a1ff;
+}
+
+.explanetporyTagline:hover .primerySpecialArrowUp {
+    margin-top: -58px;
+}
+
+.explanetporyTagline:hover .explanetporyTagline a{
+    color: #a1a1ff;
+}
+
+.primerySpecialArrowUp{
+    color: #85929d;
+    padding: 0 0 19px 0;
+}
+
+.explanetoryAddCommentBtn{
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    box-shadow: -4px 0 11px 0 #ffffff;
+    background: #ffffff;
+    color: #34495e;
+    float: right;
+    border: none;
+    padding: 6px 9px 6px 9px;
+    cursor: pointer;
+}
+.explanetoryAddCommentBtn:hover{
+    color: #34495e;
+}
+
+.specialArrowUp{
+    font-size: 27px;
+    position: absolute;
+    left: 17px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    top: 5px;
+    height: 35px;
+    width: 30px;
+    overflow: hidden;
+    color: #85929d;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sideHEadersBox{
+    top: 130px;
+}
+
+.visualContentViewField{
+    white-space: nowrap;
+    text-align: center;
+}
+
+.visualContentViewField:before,
+.visualContentViewField_before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.visualContentViewField img {
+    background: #ffffff;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+.wordHeader{
+    padding: 0 0 0 30px;
+    border-left: 4px solid #e8e8fa;
+    position: relative;
+}
+
+.wordHeader .headlines{
+    padding-top: 0;
+    clear: both;
+}
+
+.wordoutherHeader{
+    margin-left: 3px;
+}
+
+.wordHeaderOwnerImage{
+    background: #f8f9fa;
+    position: absolute;
+    top: 21px;
+    left: -25px;
+    padding: 9px 3px 12px 3px;
+}
+.wordHeader .wordHeaderOwnerImage{
+    top: -3px;
+    padding-top: 9px;
+}
+
+.wordHeaderOwnerImage img{
+    width: 39px;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.commentSection{
+    position: relative;
+    padding: 15px 0 15px 30px;
+    border-left: 4px solid #e8e8fa;
+}
+.commentSection .wordHeaderOwnerImage{
+    top:21px;
+}
+
+.commentOutherBeforePlaceholder{
+    margin-left: 3px;
+}
+
+.commentBeforePlaceholder div .form-control{
+    border-radius: 8px;
+}
+
+.commentBeforePlaceholder div .form-control:hover{
+    border: 1px solid white;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+}
+
+.commentBeforePlaceholder{
+    position: relative;
+    padding: 31px 0 9px 30px;
+    border-left: 4px solid #e8e8fa;
+}
+
+.commentOutherBeforePlaceholder .roundimg{
+    opacity: 0.8;
+}
+
+.noCommentsHere{
+    padding-bottom: 0;
+}
+
+.youMakeTheFirstStep{
+    padding-bottom: 0;
+    border-left: 4px dotted #e8e8fa;
+}
+
+.commentSectionOuther{
+    margin-left: 3px;
+    display: none;
+}
+
+.pullUpLogin{
+    cursor: pointer;
+    color: silver;
+}
+
+.pullUpLogin:hover{
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    background: white;
+    border-color: white;
+    color: #35495e;
+}
+.pullUpLogin:hover::-webkit-input-placeholder,
+.pullUpLogin:hover::-moz-placeholder,
+.pullUpLogin:hover:-ms-input-placeholder,
+.pullUpLogin:hover:-moz-placeholder{
+    color: #35495e;
+}
+
+.commentBeforeFieldButtonPreview{
+    color: #cecece;
+    background: white;
+    position: absolute;
+    top: 39px;
+    right: 6px;
+    border: none;
+    padding: 0 9px;
+}
+
+.commentOutherBeforePlaceholder {
+    margin-left: 3px;
+}
+
+.wordHeaderEditerImage{
+    background: #f8f9fa;
+    padding: 0 12px 0 9px;
+    border-radius: 6px;
+    position: absolute;
+    right: 15px;
+    top: 9px;
+}
+
+.wordHeaderEditerImage img {
+    width: 18px;
+    margin-top: -3px;
+}
+
+.wordHeaderEditerImage .fa-hammer{
+    font-size: 12px;
+    padding: 0 6px;
+}
+
+.interractWithPostInWord{
+    background: transparent;
+    border: none;
+    padding: 0 9px;
+    color: #35495e;
+    cursor: pointer;
+}
+
+/* media objects */
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 576px) {
+    .commentOutherBeforePlaceholder {
+        margin-left: 15px;
+    }
+    .wordoutherHeader {
+        margin-left: 15px;
+    }
+    .commentSectionOuther{
+        margin-left: 15px;
+    }
+}

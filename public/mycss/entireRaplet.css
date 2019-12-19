@@ -1,0 +1,134 @@
+.entirePostsContainer{
+    background: #f4fbff;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+.entirePostsContainer .card{
+    border: none;
+    border-left: 3px solid white;
+    cursor: pointer;
+    border-radius: 0;
+    margin-bottom: 1px;
+}
+
+.entirePostsContainer .card:hover{
+    background: #f8fdff;
+    border-left: 3px solid #d9dadc;
+}
+
+.entireRapletCardPostText{
+    float: left;
+    max-width: inherit;
+    box-sizing:border-box;
+    width: calc(100% - 75px);
+    position: relative;
+}
+
+.entireRapletCardPostText h5{
+    white-space: nowrap;
+    margin-bottom: 16px;
+    overflow: hidden;
+    height: 25px;
+}
+
+.entireRapletCardPostImage{
+    float: left;
+    margin-right: 15px;
+    height: 60px;
+    max-width: 60px;
+    overflow: hidden;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 2px #919191;
+    box-shadow: 0 0 2px #919191;
+}
+
+.entireRapletCardPostImage img{
+    float: left;
+    height: 60px;
+}
+
+.entirePostsHeaders{
+    width: 100%;
+    padding: 15px;
+}
+
+.filtertogleButton{
+    background: white;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px 15px;
+    color: #41b883;
+    font-weight: 600;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.filtertogleButton:hover,
+.filtertogleButton:active,
+.filtertogleButton:focus{
+    background: #f8f9fa;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.r-pull-right{
+    margin-top: -6px;
+    float: right;
+}
+
+.entirePostsHeaders  .show{
+    margin: 15px 0 0 0;
+}
+
+.entireRapletCardPostText span{
+    padding: 0 15px 0 0;
+    font-size: 14px;
+    color: silver;
+}
+
+.dateStickingTopRight{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+a.postCardUsername {
+    top: 20px;
+    position: absolute;
+    font-size: 14px;
+    color: silver;
+}
+
+a.postCardUsername:hover{
+    color: #8ed4df;
+}
+
+.dateButton{
+    color: #c0e492;
+}
+
+
+.filtersContnet{
+    padding: 15px;
+    background: #f4fbff;
+}
+
+.filterSelection{
+    display: inline;
+}
+
+.filterSelection .dropdown-item{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+

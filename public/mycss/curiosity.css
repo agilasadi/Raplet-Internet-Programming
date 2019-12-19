@@ -1,0 +1,77 @@
+.visualCuriosityContent{
+    margin-top: 1px;
+}
+
+.card{
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    border-radius: 6px;
+    border: none;
+}
+
+.card:hover .cardTopDropdown{
+    display: block;
+}
+
+.card-img-top {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.langsButtons {
+    margin-right: 3px;
+}
+
+.card-title a{
+    color: #1e374e;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0 0 0.4rem #bcfbe1;
+    -moz-box-shadow: 0 0 0 0.4rem #bcfbe1;
+    box-shadow: 0 0 0 0.4rem #bcfbe1;
+}
+
+.card-body{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.outherVisualCard{
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 15px;
+    background: transparent;
+}
+
+.cardTopDropdown{
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    display: none;
+}
+
+.cardTopDropdown button{
+    background: #ffffff;
+    border: none;
+    color: #94a0ab;
+    border-radius: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    padding: 3px 9px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 0 5px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.05);
+}
+.cardTopDropdown button:hover{
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+    color: #35495e;
+    background: #f8f9fa;
+}
+
+.curiosityImageHolder{
+   max-height: 400px;
+    overflow: hidden;
+}
